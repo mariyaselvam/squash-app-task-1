@@ -1,0 +1,832 @@
+
+body{
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+ul{
+    padding: 0rem;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+section{
+    max-width: 2520px;
+    margin: 0rem auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    position: fixed;
+    width: 90%;
+    max-width: 2000px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+
+ul{
+    list-style: none;
+}
+
+.logo-nav-contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+    border-radius: 30px;
+    background-color: white;
+    margin: 2rem 0rem;
+    position: relative;
+}
+
+.nav-list{
+    display: flex;
+    gap: 30px;
+    margin: 0rem;
+}
+
+.nav-list li:hover{
+    color: #C10023;
+}
+
+.contact-us-btn{
+    background-color: #FFCC29;
+    border-radius: 10px;
+    width: 130px;
+    height: 50px;
+    display: grid;
+    place-content: center;
+    color: black;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.banner-sec{
+    /* padding: 10rem 0rem; */
+    height: 800px;
+    max-height: 1000px;
+    background-color: darkblue;
+    background-image: url("./assets/banner-sec/banner-man-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.banner-tit-card{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  width: 90%;
+  max-width: 646px ;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.testimonial-mini-tit{
+    background-color: #ffffff;
+    padding: 0.7rem 1rem 0.7rem 2.5rem;
+    margin: 0rem auto;
+}
+
+.Subscrip-mini-tit{
+    background-color: #ffffff;
+    padding: 0.7rem 1rem 0.7rem 2.5rem;
+    margin: 0rem auto;
+}
+
+.sec-mini-tit{
+    background-color: #FFFFFF4D;
+    padding: 0.7rem 1rem 0.7rem 2.5rem;
+}
+
+.Welcome-to-mini-tit{
+    background-color: #F1F1F1;
+    padding: 0.7rem 1rem 0.7rem 3rem;
+}
+
+.why-chose-mini-tit{
+    background-color: #ffffff;
+    padding: 0.7rem 1rem 0.7rem 3rem;
+}
+
+.how-we-work-mini-tit{
+    background-color: #f1f1f1;
+    padding: 0.7rem 1rem 0.7rem 3rem;
+    margin: 0rem auto;
+}
+
+.blog-mini-tit{
+    background-color: #ffffff;
+    padding: 0.7rem 1rem 0.7rem 3rem;
+    margin: 0rem auto;
+}
+
+.our-team-mini-tit{
+    background-color: #f4f4f4;
+    padding: 0.7rem 1rem 0.7rem 3rem;
+    margin: 0rem auto;
+}
+
+
+.welcome-to-main-img{
+    display: grid;
+    place-content: center;
+}
+
+.welcome-to-main-img img{
+    object-fit: contain;
+}
+
+.sec-mini-tit ,
+  .Welcome-to-mini-tit ,
+   .why-chose-mini-tit ,
+    .how-we-work-mini-tit ,
+     .blog-mini-tit ,
+      .our-team-mini-tit,
+       .Subscrip-mini-tit,
+        .testimonial-mini-tit {
+  position: relative;
+  width: fit-content;
+}
+
+.testimonial-mini-tit::before{
+    background-image: url("./assets/why-choose-us-sec/Why-Choose-Us.svg");
+    left: 5px;
+}
+
+.Subscrip-mini-tit::before{
+    background-image: url("./assets/why-choose-us-sec/Why-Choose-Us.svg");
+    left: 5px;
+}
+
+.our-team-mini-tit::before{
+    background-image: url("./assets/why-choose-us-sec/Why-Choose-Us.svg");
+    left: 5px;
+}
+
+.sec-mini-tit::before{
+    background-image: url("./assets//banner-sec/mini-tit.svg");
+    left: 5px;
+}
+
+.Welcome-to-mini-tit::before{
+    background-image: url("./assets/welcome-to-sec/Welcome-To.svg");
+    left: 10px;
+}
+
+.why-chose-mini-tit::before{
+    background-image: url("./assets/why-choose-us-sec/Why-Choose-Us.svg");
+    left: 10px;
+}
+
+.how-we-work-mini-tit::before{
+    background-image: url("./assets/why-choose-us-sec/Why-Choose-Us.svg");
+    left: 10px;
+}
+
+.blog-mini-tit::before{
+    background-image: url("./assets/why-choose-us-sec/Why-Choose-Us.svg");
+    left: 10px;
+}
+
+.sec-mini-tit::before ,
+ .Welcome-to-mini-tit::before ,
+  .why-chose-mini-tit::before ,
+   .how-we-work-mini-tit::before ,
+    .blog-mini-tit::before ,
+     .our-team-mini-tit::before,
+      .Subscrip-mini-tit::before ,
+      .testimonial-mini-tit::before{
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: translateY(-50%);
+    top: 50%;
+}
+
+.banner-main-h1 ,
+ .welcome-main-tit ,
+  .why-chose-us-main-tit ,
+   .how-we-work-main-tit ,
+    .blog-main-tit ,
+     .our-team-main-tit,
+      .Subscrip-main-tit,
+      .testimonial-main-tit{
+    font-family: "Courgette", cursive;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 60px;
+}
+
+.get-started-btn{
+    width: 169px;
+    height: 50px;
+    background-color: #FFCC29;
+    border-radius: 10px;
+    display: grid;
+    place-content: center;
+    align-items: center;
+    color: black;
+    position: relative;
+    padding: 1rem 2rem 1rem 1rem;
+}
+
+.get-started-btn::before{
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-image: url("./assets/banner-sec/arrow.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    right: 20px;
+}
+
+.welcome-to-sec{
+    padding: 5rem 0rem;
+}
+
+.welcome-to-content-box{
+    margin: 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Years-Of-Experiance{
+    display: flex;
+    gap: 20px;
+}
+
+.Years-Of-Experiance-cont{
+    flex-shrink: 1;
+    padding: 0.5rem 0rem;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px; 
+}
+
+.years{
+    background-color: #F1F1F1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0.5rem 0rem;
+    width: 175px;
+    flex-shrink: 1;
+}
+
+.year-of-number{
+    color: #C10023;
+    font-size: 90px;
+    font-weight: 800;
+    line-height: 96px;
+}
+
+.why-choose-us-sec .container{
+    max-width: 100%;
+}
+
+.why-choose-us-sec .col-md-6{
+    padding: 0rem;
+}
+
+.why-choose-us-projects{
+    /* display: grid; */
+    place-content: center;
+    background-image: url("./assets/why-choose-us-sec/why-choose-us-main-img.png");
+    height: 100%;
+    background-size: cover;
+}
+
+.projects-people-business-card{
+    background-color: #C10023B2;
+    backdrop-filter: blur(25px);
+    margin: 0rem auto;
+    color: white;
+    max-width: 560px;
+    width: 80%;
+    display: grid;
+    place-content: center;
+    grid-template-columns: 100%;
+    border: 1px solid #000000;
+    height: 480px;
+    padding: 0rem;
+    gap: 10px;
+}
+
+.projects-people-business-card span{
+   background-color: #ffcc29;
+   color: black;
+   width: 95px;
+   display: grid;
+   place-content: center;
+   padding: 0rem 1rem;
+   height: 100%;
+}
+
+.projects-people-business-card li{
+    border: 1px solid #f1f1f1;
+    width: 80%;
+    max-width: 400px;   
+    display: flex;
+    height: 65px;
+    margin: 0.5rem auto;
+    border-radius: 5px;
+ }
+
+ .projects-people-business-card li div{
+    flex-grow: 1;
+    padding-left: 2rem;
+    display: flex;
+    align-items: center;
+ }
+
+ .why-choose-us-cont{
+    height: 100%;
+    background-color: #f1f1f1;
+    padding: 4rem 6rem;
+ }
+
+ .why-choose-us-cont-card{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    margin: 3rem 0rem;
+ }
+
+ .expreriance-excelence-affodoble li{
+    position: relative;
+    padding-left: 2rem;
+    margin-bottom: 3rem;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+ }
+
+ .how-we-work-sec{
+    padding: 3rem 0rem;
+ }
+
+ .expreriance-excelence-affodoble li p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+ }
+
+ .expreriance-excelence-affodoble li::before{
+    content: "";
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background-image: url("./assets/why-choose-us-sec/tick.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 0%;
+    left: -20px;
+    background-color: #FFCC29;
+    border-radius: 50%;
+ }
+
+ .how-we-work-tit-wraper ,
+  .blog-tit-wraper ,
+   .our-team-tit-wraper ,
+    .Subscrip-tit-wraper,
+     .testimonial-tit-wraper{
+    text-align: center;
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    margin: 3rem auto;
+ }
+
+ .how-we-work-card{
+    text-align: left;
+    padding: 2rem 3rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1.06px solid #000000;
+    margin-bottom: 2rem;
+ }
+
+ .how-we-work-card:hover{
+    background-color: #C10023;
+    color: white;
+ }
+
+ .how-we-work-card:hover .read-more-btn{
+    color: #ffcc29;
+ }
+
+.how-we-work-card-img{
+    width: 60px;
+    height: 60px;
+}
+
+.how-we-work-card-tit{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+.read-more-btn{
+    color: #C10023;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.blog-sec{
+    background-color: #f1f1f1;
+    padding: 4rem 0rem;
+}
+
+.blog-card{
+    text-align: center;
+    background-color: #ffffff;
+    padding: 1.3rem 1rem;
+    border-radius: 5px;
+    margin-bottom: 3rem;
+}
+
+.blog-card p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.blog-card-read-more{
+    width: 129px;
+    height: 50px;
+    display: grid;
+    place-content: center;
+    background-color: #ffcc29;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    border-radius: 10px;
+    margin: 1rem auto;
+}
+
+.blog-card-tit{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    margin: 1rem 0rem;
+}
+
+.blog-img-tit1 , .blog-img-tit2{
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    bottom: 0px;
+    max-width: 100%;
+    width: 162px;
+    height: 45px;
+}
+
+.blog-img-tit2{
+    background-color: #c10023;
+    display: grid;
+    place-content: center;
+    left: 50%;
+}
+
+.blog-img-tit1{
+    background: #c1002399;
+    display: grid;
+    place-content: center;
+    right: 50%;
+}
+
+.blog-img-tit1::before , .blog-img-tit2::before{
+     content: "";
+     position: absolute;
+     background-repeat: no-repeat;
+     background-size: contain;
+     background-position: center;
+     width: 13px;
+     height: 13px;
+     top: 50%;
+     transform: translateY(-50%);
+     left: 10px;
+}
+
+.blog-img-tit1::before {
+    background-image: url("./assets/how-we-work/profile.svg");
+}
+
+.blog-img-tit2::before {
+    background-image: url("./assets/how-we-work/time.svg");
+}
+
+.blog-card-img{
+    position: relative;
+}
+
+.our-team-sec{
+    padding: 3rem 0rem;
+}
+
+.our-team-card{
+    padding: 1.6rem;
+    text-align: center;
+    border: 1px solid rgba(71, 71, 71, 1);
+    transition: all 0.5s ease ;
+    margin-bottom: 3rem;
+}
+
+.our-team-card p{
+    margin: 0rem;
+}
+
+.our-team-card:hover{
+    background-color: #c10023;
+    color: white;
+    border: 1px solid transparent;
+}
+
+.our-team-name{
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 36px;
+    margin: 1rem 0rem;
+}
+
+.tit-nd-price{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(193, 0, 35, 1);
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.buy-now-btn{
+    display: block;
+    background-color: #ffcc29;
+    padding: 1rem 0rem;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.what-we-offer{
+    padding: 0rem;
+    margin: 1rem 0rem;
+}
+
+.what-we-offer li{
+    position: relative;
+    padding-left: 2.5rem;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 1rem;
+    
+}
+
+.basic-nd-standard-plan-card{
+    background-color: #ffffff;
+    padding: 2rem;
+    margin-bottom: 3rem;
+}
+
+.primium-plan-card{
+    background-color: #c10023;
+    padding: 3rem 2rem;
+    color: white;
+    margin-bottom: 3rem;
+}
+
+.primium-plan-card .tit-nd-price span{
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 44px;
+    color: #ffffff;
+}
+
+.primium-plan-card .pricing-tit{
+   color: #ffcc29;
+}
+
+.primium-plan-card .tit-nd-price{
+    border-bottom: 2px solid #ffcc29;
+}
+
+.what-we-offer li::before{
+    content: "";
+    position: absolute;
+    background-image: url("./assets/pricing/pricing-checks.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    left: 0px;
+}
+
+.pricing-sec{
+    background-color: #f1f1f1;
+    padding: 4rem 0rem;
+}
+
+.tit-nd-price span{
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 44px;
+    color: #c10023;
+}
+
+.pricing-tit{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+.testimonial{
+    padding: 7rem 0rem;
+}
+
+.testimonial .container{
+     max-width: 1800px;
+     width: 100%;
+}
+
+
+/* Swiper - start */
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 680px !important;
+    width: 90% !important;
+    height: 273px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0rem auto;
+  }
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Swiper - end */
+
+.testimonial-card{
+    display: flex;
+  }
+
+.testimonial-main-img{
+    flex-shrink: 0;
+}
+
+.tesmonial-cont{
+    text-align: left;
+    padding: 1rem 2rem;
+    position: relative;
+}
+
+.tesmonial-cont::before{
+  content: "";
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  background: url("./assets/testimonial-sec/quats.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  right: 20px;
+  top: 20px;
+}
+
+.tesmonial-cont > span{
+    color: #c10023;
+}
+
+.testi-name{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.testimo-rating-img{
+    width: 138px;
+    height: 23px;
+    margin: 1rem 0rem;
+}
+
+.swiper-3d .swiper-wrapper{
+    gap: 50px;
+}
+
+footer{
+    position: relative;
+    padding: 8rem 0rem;
+    background-color: #000000;
+    color: white;
+}
+
+.footer-social-mdia-link{
+    display: flex;
+    gap: 20px;
+}
+
+.footer-contant{
+
+}
+
+.f-contact-checks , .f-pages-check , .f-quick-link-checks {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.f-sub-form{
+    width: 100%;
+    height: 50px;
+    border-radius: 6px;
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.f-sub-form::before{
+    content: "";
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 0px;
+    background: url("./assets/footer/footer-arrows.png");
+    right: 0px;
+    background-color: #ffcc29;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.f-sub-form input{
+  display: block;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  padding: 0.4rem 0.4rem 0.4rem 1rem ;
+}
+
+.footer-logo-social{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-logo-social , .footer-contant , .footer-pages , .quick-link , .f-subcribe{
+    margin-bottom: 3rem;
+}
+
+.f-subscribe-tit{
+    margin-bottom: 2rem;
+}

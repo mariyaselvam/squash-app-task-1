@@ -1,0 +1,101 @@
+@media (max-width:1000px) {
+    .nav-list{
+        display: none;
+    }
+    .Years-Of-Experiance{
+        flex-direction: column;
+    }
+    .years{
+        width: 100%;
+    }
+    .welcome-to-sec .container{
+        max-width: 100%;
+    }
+    .Years-Of-Experiance{
+        offset: 0;
+    }
+    .projects-people-business-card{
+        margin: 3rem auto;
+    }
+    .blog-sec .container{
+        max-width: 100%;
+    }
+    .why-choose-us-cont{
+        padding: 2rem 3rem;
+    }
+    .blog-card-img img{
+        width: 100%;
+    }
+    .how-we-work-sec{
+        padding: 3rem 1rem;
+    }
+    .blog-sec{
+        padding: 4rem 1rem;
+    }
+    .testimonial{
+        padding: 4rem 0rem;
+    }
+    header{
+        width: 95%;
+    }
+    .contact-us-btn{
+       width: 100px;
+       height: 40px;
+    }
+    .logo-nav-contact{
+        padding: 1rem 1rem;
+    }
+    .our-team-card{
+        width: 95%;
+        margin: 0rem auto 3rem;
+    }
+    .our-team-profile img{
+        width: 100%;
+    }
+    .blog-img-tit1, .blog-img-tit2{
+        width: 50%;
+        max-width:  162px;
+        height: 45px;
+    }
+    .banner-main-h1, .welcome-main-tit, .why-chose-us-main-tit, .how-we-work-main-tit, .blog-main-tit, .our-team-main-tit, .Subscrip-main-tit{
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 40px;
+    }
+    .banner-tit-card{
+        top: 60%;
+
+    }
+
+}
+
+@media (max-width:600px) {
+    .banner-sec{
+        background-position: -700px 0px;
+    }
+    .testimonial-card{
+        flex-direction: column;
+    }
+    .swiper-slide{
+        max-width: 680px !important;
+        width: 90% !important;
+        height: auto;
+    }
+    .swiper-3d .swiper-wrapper{
+        gap: 0px;
+    }
+    .tesmonial-cont{
+        padding: 2rem;
+    }
+    .testimonial-main-img{
+        height: 350px;
+    }
+    .testimonial-main-img img{
+        object-fit: contain;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .why-choose-us-sec .row>*{
+        padding: 0rem;
+    }
+}
