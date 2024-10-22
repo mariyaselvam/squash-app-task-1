@@ -1,6 +1,6 @@
 @media (max-width:1000px) {
-    .nav-list{
-        display: none;
+    .nav-list-1{
+        display: block !important;
     }
     .Years-Of-Experiance{
         flex-direction: column;
@@ -15,7 +15,7 @@
         offset: 0;
     }
     .projects-people-business-card{
-        margin: 3rem auto;
+        margin: 2rem auto;
     }
     .blog-sec .container{
         max-width: 100%;
@@ -30,7 +30,7 @@
         padding: 3rem 1rem;
     }
     .blog-sec{
-        padding: 4rem 1rem;
+        padding: 3rem 1rem;
     }
     .testimonial{
         padding: 4rem 0rem;
@@ -57,7 +57,14 @@
         max-width:  162px;
         height: 45px;
     }
-    .banner-main-h1, .welcome-main-tit, .why-chose-us-main-tit, .how-we-work-main-tit, .blog-main-tit, .our-team-main-tit, .Subscrip-main-tit{
+    .banner-main-h1,
+     .welcome-main-tit,
+      .why-chose-us-main-tit,
+       .how-we-work-main-tit,
+        .blog-main-tit,
+         .our-team-main-tit,
+          .Subscrip-main-tit,
+           .testimonial-main-tit{
         font-size: 30px;
         font-weight: 400;
         line-height: 40px;
@@ -66,10 +73,125 @@
         top: 60%;
 
     }
+    .handburger-menu{
+        display: block;
+    }
+    .contact-us-btn{
+        display: none;
+    }
+    .nav-list{
+        position: fixed;
+        top: 200%;
+        text-align: center;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        background-color: white;
+        padding: 2rem 1rem;
+        border-radius: 10px;
+        width: 50%;
+        font-size: 20px;
+        font-weight: 400;
+        color: #c10023;
+        display: none;
+    }
+    .nav-list > li{
+        margin-bottom: 1rem;
+    }
+    .service-nav-card{
+        left: 0px;
+    }
+    .service-nav-card > li{
+        padding: 0.4rem 3rem;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 24px;
+    }
+    .footer-social-mdia-link{
+        justify-content: center;
+    }
 
 }
 
+@media (max-width:1200px) {
+    .projects-people-business-card{
+        margin: 3rem auto;
+    }
+    
+}
+
 @media (max-width:600px) {
+
+    body{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .logo{
+        width: 50%;
+    }
+    .our-team-card{
+        width: 85%;
+        padding: 0.5rem;
+    }
+    .pricing-tit{
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 34px;
+    }
+    .primium-plan-card .tit-nd-price span{
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .tit-nd-price span{
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 40px;
+        color: #c10023;
+    }
+    .projects-people-business-card{
+        height: auto;
+        padding: 2rem 0rem;
+        gap: 5px;
+    }
+    .our-team-name{
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 34px;
+        margin: 0.5rem 0rem;
+    }
+    .why-choose-us-cont-card{
+        margin: 2rem 0rem;
+    }
+    .what-we-offer li{
+        margin-bottom: 0.5rem;
+    }
+    .basic-nd-standard-plan-card , .primium-plan-card{
+        padding: 1rem 1.4rem;
+        width: 85%;
+        margin: 0rem auto 2rem;
+    }
+    .buy-now-btn{
+        width: 80%;
+        margin: 0rem auto;
+        padding: 0.7rem 0rem;
+        font-size: 18px;
+    }
+
+    .testimo-rating-img{
+        width: 118px;
+        height: 20px;
+        margin: 0.5rem 0rem;
+    }
+
+    .blog-img-tit1, .blog-img-tit2{
+        font-size: 14px;
+    }
+
+    .blog-card-tit{
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 34px;
+        margin: 0.5rem 0rem;
+    }
     .banner-sec{
         background-position: -700px 0px;
     }
@@ -80,22 +202,99 @@
         max-width: 680px !important;
         width: 90% !important;
         height: auto;
+        font-size: 14px;
     }
+    .tesmonial-cont::before{
+        width: 70px;
+       height: 70px;
+    }
+    
     .swiper-3d .swiper-wrapper{
         gap: 0px;
     }
     .tesmonial-cont{
-        padding: 2rem;
+        padding: 1rem;
     }
     .testimonial-main-img{
-        height: 350px;
+        width: auto;
+        height: 200px;
     }
     .testimonial-main-img img{
-        object-fit: contain;
+        object-fit: cover;
         border-radius: 10px;
         overflow: hidden;
     }
     .why-choose-us-sec .row>*{
         padding: 0rem;
+    }
+    .welcome-to-content-box{
+        margin: 2rem 1rem;
+    }
+    .expreriance-excelence-affodoble li{
+        margin-bottom: 2rem;
+    }
+    .blog-card-read-more{
+        width: 119px;
+        height: 40px;
+        margin: 0.5rem auto 0rem;
+    }
+    .expreriance-excelence-affodoble li p{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    .read-more-btn{
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 24px;
+    }
+    .how-we-work-card{
+        padding: 1rem 1rem;
+        width: 90%;
+        margin: 0rem auto 1rem;
+        gap: 5px;
+    }
+    .how-we-work-sec{
+        padding: 1rem 1rem;
+    }
+    .how-we-work-card-tit{
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 33px;
+    }
+    .how-we-work-card-img{
+        width: 40px;
+        height: 40px;
+    }
+    footer{
+        padding: 3rem 0rem;
+    }
+    .how-we-work-tit-wraper,
+     .blog-tit-wraper,
+      .our-team-tit-wraper,
+       .Subscrip-tit-wraper,
+        .testimonial-tit-wraper{
+            margin: 2rem auto;
+    }
+    .footer-social-mdia-link{
+        justify-content: center;
+ecenter}
+    .footer-logo-social p{
+        text-align: center;
+    }
+    .sec-mini-tit, .Welcome-to-mini-tit, .why-chose-mini-tit, .how-we-work-mini-tit, .blog-mini-tit, .our-team-mini-tit, .Subscrip-mini-tit, .testimonial-mini-tit{
+        font-size: 12px;
+    }
+    .welcome-to-sec{
+        padding: 2rem 0rem;
+    }
+    .our-team-sec{
+        padding: 2rem 0rem;
+    }
+    .handburger-menu{
+        display: block;
+    }
+    .contact-us-btn{
+        display: none;
     }
 }
